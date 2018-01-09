@@ -6,6 +6,22 @@
     android:background="@color/white"
     android:fitsSystemWindows="false">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/theme_color"
+        android:paddingTop="@dimen/toolbar_padding_top">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/ic_launcher"/>
+
+    </RelativeLayout>
+
     <LinearLayout
         android:id="@+id/layout_bottom"
         android:layout_width="match_parent"
